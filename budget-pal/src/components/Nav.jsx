@@ -1,7 +1,7 @@
 //rrd imports
 import { Form, NavLink } from "react-router-dom"
 //assets
-import moneytree from "../assets/money-tree.png"
+import savings from "../assets/savings.png"
 //libary
 import { TrashIcon } from '@heroicons/react/24/solid'
 
@@ -14,7 +14,7 @@ const Nav = ({ userName }) => {
                 aria-label="Go to home"
 
             >
-                <img src={moneytree} alt="" height={40} />
+                <img src={savings} alt="" height={40} />
                 <span>BudgetPal</span>
             </NavLink>
             {
